@@ -7,7 +7,7 @@ Author: Tracy Rotton
 Author URI: http://www.taupecat.com/
 */
 
-/* Widget for displaying featured authors */
+/* Widget for displaying a specified search form */
 add_action( 'widgets_init', 'tc_specify_search_form_register_widgets' );
 
 function tc_specify_search_form_register_widgets() {
